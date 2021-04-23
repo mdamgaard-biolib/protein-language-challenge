@@ -245,9 +245,9 @@ The continuous integration script in .github/workflows/ci.yml will automatically
 
 Submission
 ================
-If you have setup the benchmarking system correctly, then everytime you do a github push then a docker image will automatically be pushed to https://biolib.com/<YourTeam-abcd>/<TeamName>. There is not a limit for how many submissions you can do, but I would recommend to only submit if the newest model predicts better than the previous.
-
 Please follow the steps laid out in the following notion document to setup your repo to submit automatically, when a commit is pushed to `main`: https://www.notion.so/Benchmarking-System-46bfaeea0119490cb611688b493c589a
+
+If you have setup the benchmarking system correctly, then everytime you do a github push then a docker image will automatically be pushed to https://biolib.com/<YourTeam-abcd>/<TeamName>. There is not a limit for how many submissions you can do, but I would recommend to only submit if the newest model predicts better than the previous.
 
 Before a submission it is important that you edit the Dockerfile and .dockerignore:
 
